@@ -1,32 +1,43 @@
 .body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
+    
 } 
 
 /* шапка */
 .header {}
 
-.header-nav {}
+
 
 .header-logo {
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         color: #2196F3;
+    }
+
+    .logo-second {
+        color: black;
+    }
+
+.header-nav-link {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    color: #2196F3;
 }
 
-.header-list {font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.header-list {
+    list-style-type: none;
+}
 
-    color: #2196F3;}
-
-.header-item {font-family: 'Roboto';
+.header-item {
+    list-style: none;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -43,10 +54,15 @@ font-family: 'Roboto';
     line-height: 16px;
     letter-spacing: 0.02em;
 
+    color: #212121;
+}
+
+.header-link:hover, .header-link:focus {
     color: #2196F3;
 }
 
 .header-tel {
+    list-style: none;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -56,3 +72,41 @@ font-family: 'Roboto';
     
         color: #757575;
 }
+
+.about {
+}
+.abaut-list {
+    list-style: none;
+}
+
+.comand {}
+
+.comand-list {
+    list-style: none;
+}
+
+.work {}
+
+.work-list {
+    list-style: none;
+}
+
+
+.footer {}
+
+.footer-logo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+.address {}
+
+
+.footer-list {
+    list-style: none;
+}
+.footer-item {}
+
