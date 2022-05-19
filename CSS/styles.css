@@ -3,8 +3,10 @@
     
 } 
 
-/* шапка */
-.header {}
+/* ------------------------------Heder------------------------------ */
+.header {
+    background: #FFFFFF;
+}
 
 
 
@@ -64,14 +66,11 @@ font-family: 'Roboto';
 
 .header-tel {
     list-style: none;
-    font-family: 'Roboto';
-        
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-        color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 /* ------------------------------Hero------------------------------ */
@@ -88,28 +87,77 @@ font-family: 'Roboto';
     color: #FFFFFF;
 }
 
-.hero-button
+.hero-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #FFFFFF;
+    background: #2196F3;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px
+}
 
-.about {
+
+/* ------------------------------About------------------------------ */
+.about { 
 }
 .abaut-list {
     list-style: none;
 }
 
-.comand {}
+/* ------------------------------Comand------------------------------ */
+.comand {
+    background: #F5F4FA;
+}
 
 .comand-list {
     list-style: none;
 }
+.comand-title-next {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+ .comand-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
 
+.comand-item {
+
+}
+
+/* ------------------------------Work------------------------------ */
 .work {}
 
 .work-list {
     list-style: none;
 }
 
+/* ------------------------------Future------------------------------ */
+.future {}
 
-.footer {}
+.future-list {
+    list-style-type: none;
+}
+
+.future-item {}
+
+
+/* ------------------------------Future------------------------------ */
+.footer {
+     background: #2F303A;
+}
 
 .footer-logo {font-family: 'Raleway',sans-serif;
     text-decoration: none;
@@ -120,11 +168,27 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
     color: #2196F3;}
 
-.address {}
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
 
 .footer-list {
     list-style: none;
+color: #FFFFFF;
 }
-.footer-item {}
+.footer-item {
+    }
 
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover, .footer-link:focus {
+    color: #FFFFFF;
+}
