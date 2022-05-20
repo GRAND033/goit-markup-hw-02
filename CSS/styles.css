@@ -1,3 +1,9 @@
+:root {
+--btn-color: #212121;
+--background-color-portfolio: #E5E5E5;
+--background-color-comand: #F5F4FA;
+}
+
 .body {
     font-family: Roboto, sans-serif;
     
@@ -8,17 +14,15 @@
     background: #FFFFFF;
 }
 
-
-
 .header-logo {
     text-decoration: none;
     font-family: 'Raleway';
         
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
     }
 
     .logo-second {
@@ -27,10 +31,10 @@
 
 .header-nav-link {
     
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #2196F3;
 }
 
@@ -44,7 +48,7 @@
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;}
@@ -54,7 +58,7 @@ font-family: 'Roboto';
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: #212121;
@@ -68,7 +72,7 @@ font-family: 'Roboto';
     list-style: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -88,6 +92,7 @@ font-family: 'Roboto';
 }
 
 .hero-button {
+    cursor: pointer;
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -100,9 +105,29 @@ font-family: 'Roboto';
     border-radius: 4px
 }
 
+/* ------------------------------Portfolio------------------------------ */
+.portfolio {
+    background: var(--background-color-portfolio)
+}
+
+.portfolio-button {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--btn-color)
+}
+.portfolio-button:hover, .portfolio-button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
 
 /* ------------------------------About------------------------------ */
 .about { 
+    background: #E5E5E5;
 }
 .abaut-list {
     list-style: none;
@@ -110,48 +135,53 @@ font-family: 'Roboto';
 
 /* ------------------------------Comand------------------------------ */
 .comand {
-    background: #F5F4FA;
+    background: var(--background-color-comand)
 }
 
 .comand-list {
     list-style: none;
 }
 .comand-title-next {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
+       
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     }
- .comand-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #757575;
+ 
+    .comand-text {
+        
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
     }
-
-.comand-item {
-
-}
 
 /* ------------------------------Work------------------------------ */
-.work {}
+.work {
+    background: #E5E5E5;
+}
 
 .work-list {
     list-style: none;
 }
 
+
+
+
 /* ------------------------------Future------------------------------ */
-.future {}
+.future {
+    background: #E5E5E5;
+}
 
 .future-list {
     list-style-type: none;
 }
 
-.future-item {}
 
 
 /* ------------------------------Future------------------------------ */
@@ -159,7 +189,8 @@ font-family: 'Roboto';
      background: #2F303A;
 }
 
-.footer-logo {font-family: 'Raleway',sans-serif;
+.footer-logo {
+    font-family: 'Raleway',sans-serif;
     text-decoration: none;
     
     font-weight: 700;
@@ -183,8 +214,6 @@ font-family: 'Roboto';
     list-style: none;
 color: #FFFFFF;
 }
-.footer-item {
-    }
 
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
