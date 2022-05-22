@@ -15,7 +15,9 @@
 --background-future-work-about-portfolio: #E5E5E5;
 --footer-backgr: #2F303A;
 --footer-logo-studia: #FFFFFF;
+--footer-link: rgba(255, 255, 255, 0.6);
 --address: #FFFFFF;
+--current: #2196F3;
 }
 
 
@@ -23,6 +25,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
+    
     
 } 
 
@@ -33,8 +36,7 @@
 
 .header-logo {
     text-decoration: none;
-    font-family: 'Raleway';
-        
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -82,7 +84,7 @@
 }
 
 .current {
-    color: #2196F3;
+    color: var(--current)
 }
 
 .header-link:hover, 
@@ -145,7 +147,9 @@
     
     color: var(--portfolio-button)
 }
-.portfolio-button:hover, .portfolio-button:focus {
+
+.portfolio-button:hover, 
+.portfolio-button:focus {
     background: #2196F3;
     color: #FFFFFF;
 }
@@ -269,7 +273,7 @@
 
 .footer-link {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-link)
 }
 .footer-link:hover, 
 .footer-link:focus, 
