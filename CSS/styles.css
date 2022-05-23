@@ -10,14 +10,14 @@
 --header-tel: #757575;
 --hero-background-color: #2F303A;
 --hero-title: #FFFFFF;
---comand-work-title: #212121;
---text-comand-work: #757575;
 --background-future-work-about-portfolio: #E5E5E5;
 --footer-backgr: #2F303A;
 --footer-logo-studia: #FFFFFF;
 --footer-link: rgba(255, 255, 255, 0.6);
 --address: #FFFFFF;
 --current: #2196F3;
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
 }
 
 
@@ -161,6 +161,18 @@
 .abaut-list {
     list-style: none;
 }
+.about-title-next {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+.about-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color)
+}
 
 /* ------------------------------Comand------------------------------ */
 .comand {
@@ -176,9 +188,8 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    
     color: var(--comand-work-title) 
-    }
+}
  
     .comand-text {
     
@@ -201,10 +212,17 @@
 }
 .work-title {
     text-decoration: none;
-    color: var(--comand-work-title)
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color)
 }
+
 .work-text {
-    color: var(--text-comand-work)
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-text-color)
 }
 
 .work-link {
