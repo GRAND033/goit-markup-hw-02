@@ -29,12 +29,19 @@
     
 } 
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;}
 /* ------------------------------Heder------------------------------ */
 .header {
     background: var(--background-heder)
 }
 
 .header-logo {
+  
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -62,6 +69,7 @@
 }
 
 .header-item {
+  
     list-style: none;
     
     font-weight: 500;
